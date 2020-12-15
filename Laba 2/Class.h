@@ -23,7 +23,7 @@ public:
     }
     virtual ~Point() {
         cout << "Текущее состояние объектов х и у: " << x << " " << y << endl;
-        cout << "Point - Дектруктор" << endl;
+        cout << "Point - Деструктор" << endl;
     }
     void changeplus(int kx, int ky) {//Реализация метода изменения координат сразу в определении
         x += kx;
@@ -59,7 +59,7 @@ public:
     }
     ~Point3D() {
         cout << "Текущее состояние объектов х, у и z: " << x << " " << y << " " << z << endl;
-        cout << "Point3D - Дектруктор" << endl;
+        cout << "Point3D - Деструктор" << endl;
     }
     void change3D(int kx, int ky, int kz) {
         x += kx;
@@ -91,6 +91,6 @@ public:
                                       //копировании указателя копируется только только адрес указателя
     }
     ~Composition() {
-        cout << "Composition - Дектруктор" << endl;
+        cout << "Composition - Деструктор" << endl;
     }
 };
